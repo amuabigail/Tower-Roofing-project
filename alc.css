@@ -1,0 +1,141 @@
+#header {
+  min-height: 30px;
+     margin-bottom: 25px;
+    margin-top: 25px;
+  /*    border: 5px solid darkorange;*/
+  /*
+    margin-right:150px;
+    margin-left:150px;
+*/
+}
+
+span {
+  position: relative;
+  margin-left: 200px;
+  margin-bottom: 0px;
+}
+
+#header1 {
+  position: relative;
+  float: right;
+  bottom: 95px;
+  color: white;
+  right: 350px;
+  font-family: serif;
+  font-size: 2em;
+}
+
+#header2 {
+  position: relative;
+  float: left;
+  bottom: 75px;
+  color: darkorange;
+  left: 200px;
+  font-family: monospace;
+  font-size: 0.8em;
+  margin-left: 200px;
+  margin-right: 350px;
+}
+
+#container {
+  margin-left: 265px;
+  margin-right: 152px;
+  margin-top: 20px;
+  background-color: black;
+    
+}
+
+.nav-area {
+  background: black;
+
+    
+
+}
+
+.nav-area:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.nav-area ul {
+  list-style: none;
+  margin: 0;
+}
+
+.nav-area > ul > li {
+  float: left;
+  position: relative;
+  bottom: 5px;
+  left: 30px;
+ 
+
+}
+
+.nav-area ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 25px;
+  display: block;
+
+
+}
+
+.nav-area ul li:hover a {
+  background: darkorange;
+}
+
+.nav-area ul ul {
+  position: absolute;
+  padding: 5px;
+  min-width: 50px;
+  display: none;
+  top: 50px;
+  left: 0;
+}
+
+.nav-area ul li:hover > ul {
+  display: block;
+}
+.nav-area ul ul li:hover a {
+  background: black;
+  
+}
+.nav-area ul ul li {
+  position: relative;
+  padding: 15px;
+  display: block;
+  min-width: 250px;
+  max-height: 50px;
+  bottom: 20px;
+    z-index: 1;
+   
+
+}
+
+.container{
+    margin-right: 150px;
+  margin-left: 250px;
+    
+}
+
+#folder{
+    color: white;
+    margin-right: 150px;
+    margin-top: 60px;
+    font-size: 1.0em;
+    
+}
+
+#footer {
+  position: relative;
+  min-height: 80px;
+  width: 100%;
+  background-color: black;
+  float: left;
+  text-align: left;
+  color: darkorange;
+  top: 90px;
+margin-right:100px;
+}
+
