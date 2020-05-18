@@ -1,0 +1,192 @@
+#header {
+  min-height: 30px;
+     margin-bottom: 25px;
+    margin-top: 25px;
+  /*    border: 5px solid darkorange;*/
+  /*
+    margin-right:150px;
+    margin-left:150px;
+*/
+}
+
+span {
+  position: relative;
+  margin-left: 200px;
+  margin-bottom: 0px;
+}
+
+#header1 {
+  position: relative;
+  float: right;
+  bottom: 95px;
+  color: white;
+  right: 500px;
+  font-family: serif;
+  font-size: 2em;
+}
+
+#header2 {
+  position: relative;
+  float: left;
+  bottom: 75px;
+  color: darkorange;
+  left: 200px;
+  font-family: monospace;
+  font-size: 0.8em;
+  margin-left: 200px;
+  margin-right: 350px;
+}
+
+#container {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 25px;
+/*
+  margin-bottom: 30px;
+  height: auto;
+  background-color: black;
+*/
+}
+
+.nav-area {
+  background: black;
+    margin-right: 140px;
+    margin-left: 20px;
+}
+
+.nav-area:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.nav-area ul {
+  list-style: none;
+  margin: 0;
+}
+
+.nav-area > ul > li {
+  float: left;
+  position: relative;
+  bottom: 30px;
+  left: 30px;
+/*  border: 1px solid white;*/
+}
+
+.nav-area ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 25px;
+  display: inline-block;
+    width: 100%;
+
+}
+
+.nav-area ul li:hover a {
+  background: darkorange;
+}
+
+.nav-area ul ul {
+  position: absolute;
+  padding: 15px;
+  min-width: 200px;
+  display: none;
+  top: 50px;
+  left: 0;
+}
+
+.nav-area ul li:hover > ul {
+  display: block;
+}
+.nav-area ul ul li:hover a {
+  background: black;
+  
+}
+.nav-area ul ul li {
+  position: relative;
+  padding: 15px;
+  display: block;
+  min-width: 250px;
+  max-height: 50px;
+  bottom: 20px;
+    z-index: 1;
+   
+
+}
+
+#holder {
+  margin-right: 150px;
+  margin-left: 220px;
+}
+
+#logo1 {
+  bottom: 5px;
+  position: relative;
+}
+
+p{
+    margin-bottom:  35px;
+    font-size: 2.0em;
+    color: darkorange;
+    
+}
+
+#left{
+    border: 3px solid orange;
+    float: left;
+    margin-right: 15px;
+}
+
+#center{
+    margin-left: 15px;
+    margin-right: 25px;
+    float:left;
+    border: 3px solid orange;
+}
+
+#right{
+    margin-left: 10spx;
+    float: left;
+    border: 3px solid orange;
+}
+
+div .imagegallery{
+    margin: 5px;
+    border: 2px solid orange;
+    float:left;
+    width: 180px;
+}
+
+div.imagegallery:hover {
+    border: 1px solid orange;
+    
+}
+
+div .imagegallery img{
+    width: 100%;
+    height:auto;
+}
+
+div .desc{
+  padding: 15px;
+  text-align: left;
+    color: darkorange;
+
+}
+
+#footer {
+  position: relative;
+  min-height: 80px;
+  width: 100%;
+  background-color: black;
+  float: left;
+  text-align: left;
+  color: darkorange;
+  top: 90px;
+margin-right:100px;
+}
+
+    
+
+
+
